@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-05T00:00:00Z",
+  "categories": [
+    { "id": "demo",   "name": "Demo / Test", "sort_order": 1 },
+    { "id": "intl",   "name": "Quốc tế (FTA)", "sort_order": 2 },
+    { "id": "music",  "name": "Âm nhạc", "sort_order": 3 }
+  ],
+  "channels": [
+    {
+      "id": "bbb-hls",
+      "name": "Big Buck Bunny (HLS)",
+      "logo_url": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
+      "stream_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "stream_type": "hls",
+      "category_id": "demo",
+      "epg_id": null,
+      "sort_order": 1
+    },
+    {
+      "id": "tears-hls",
+      "name": "Tears of Steel (HLS)",
+      "logo_url": "https://mango.blender.org/wp-content/uploads/2013/05/01_thom_celia_bridge.jpg",
+      "stream_url": "https://test-streams.mux.dev/test_001/stream.m3u8",
+      "stream_type": "hls",
+      "category_id": "demo",
+      "epg_id": null,
+      "sort_order": 2
+    },
+    {
+      "id": "akamai-hls",
+      "name": "Akamai Test Stream",
+      "logo_url": null,
+      "stream_url": "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8",
+      "stream_type": "hls",
+      "category_id": "demo",
+      "epg_id": null,
+      "sort_order": 3
+    },
+    {
+      "id": "channel-template-fta-1",
+      "name": "<<đặt link kên FTA của bạn ở đây>>",
+      "logo_url": "https://example.com/logo.png",
+      "stream_url": "https://example.com/stream/index.m3u8",
+      "stream_type": "hls",
+      "category_id": "intl",
+      "epg_id": "your-channel.id",
+      "sort_order": 1
+    },
+    {
+      "id": "channel-template-music-1",
+      "name": "<<đặt link music stream>>",
+      "logo_url": null,
+      "stream_url": "https://example.com/music.m3u8",
+      "stream_type": "hls",
+      "category_id": "music",
+      "epg_id": null,
+      "sort_order": 1
+    }
+  ]
+}
