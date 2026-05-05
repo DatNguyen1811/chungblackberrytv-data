@@ -39,7 +39,7 @@
     },
     {
       "id": "channel-template-fta-1",
-      "name": "<<đặt link kên FTA của bạn ở đây>>",
+      "name": "<<đặt link kênh FTA của bạn ở đây>>",
       "logo_url": "https://example.com/logo.png",
       "stream_url": "https://example.com/stream/index.m3u8",
       "stream_type": "hls",
